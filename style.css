@@ -16,7 +16,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1.5px, transparent 2px);
   background-size: 28px 28px;
   z-index: -1;
 }
@@ -278,4 +278,5 @@ footer {
   .hero-layout { grid-template-columns: 1fr 300px; gap: 20px; align-items: center; }
   .maze-box { text-align: center; transform: translateX(-40px); }
   .contact-row { grid-template-columns: 1fr; }
+
 }
